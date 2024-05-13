@@ -98,3 +98,77 @@ export const CallLogs = [
         type: "Incoming",
     }
 ]
+
+
+export const Chats = [
+    {
+        name: "Tunde Mecho",
+        message: "When are you bringing my car?",
+        time: "10:57",
+    },
+    {
+        name: "Fatai",
+        message: "I'm at the gate",
+        time: "02:57",
+    },
+    {
+        name: "Bola",
+        message: "I'm at the gate",
+        time: "10:57",
+    },
+    {
+        name: "Brother Tunde",
+        message: "I'm at the gate",
+        time: "10:57",
+    },
+    {
+        name: "Sister Titi",
+        message: "I'm at the gate",
+        time: "10:57",
+    },
+    {
+        name: "Tunde Mecho",
+        message: "When are you bringing my car?",
+        time: "10:57",
+    },
+    {
+        name: "Fatai",
+        message: "I'm at the gate",
+        time: "02:57",
+    },
+    {
+        name: "Bola",
+        message: "I'm at the gate",
+        time: "10:57",
+    },
+    {
+        name: "Brother Tunde",
+        message: "I'm at the gate",
+        time: "10:57",
+    },
+    {
+        name: "Sister Titi",
+        message: "I'm at the gate",
+        time: "10:57",
+    },
+    {
+        name: "Tunde Mecho",
+        message: "When are you bringing my car?",
+        time: "10:57",
+    },
+    {
+        name: "Fatai",
+        message: "I'm at the gate",
+        time: "02:57",
+    },
+    {
+        name: "Bola",
+        message: "I'm at the gate",
+        time: "10:57",
+    },
+    {
+        name: "Brother Tunde",
+        message: "I'm at the gate",
+        time: "10:57",
+    }
+]

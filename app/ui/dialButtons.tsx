@@ -5,6 +5,7 @@ import {
     BackspaceIcon
   } from '@heroicons/react/24/outline';
 import { useState } from 'react';
+import clsx from 'clsx';
 
 export default function DialButtons(){
     const [number, setNumber] = useState<string>("");
@@ -98,13 +99,17 @@ export default function DialButtons(){
                 </div>
 
                 <div className="grid grid-flow-col gap-5 grid-cols-3 align-middle place-items-center mt-10">
-                    <button className="bg-[#202021] w-14 h-14 cursor-default rounded-full flex justify-center items-center col-span-2 justify-self-end ">
+                    <button className={clsx("w-14 h-14 cursor-default rounded-full flex justify-center items-center",
+                        number.length === 0? "bg-[#202021] col-span-3 justify-self-center":  "bg-green-500 col-span-2 justify-self-end",
+                    )}>
                         <PhoneIcon className="w-6 text-white" />
                     </button>
-                    <button onClick={deleteNumber}
-                    className="bg-[#202021] w-14 h-14 cursor-default rounded-full flex justify-center items-center justify-self-center">
-                        <BackspaceIcon className="w-6 text-white" />
-                    </button>
+                    {number.length > 0 && (
+                        <button onClick={deleteNumber}
+                        className="bg-[#202021] w-14 h-14 cursor-default rounded-full flex justify-center items-center justify-self-center">
+                            <BackspaceIcon className="w-6 text-white" />
+                        </button>
+                    )}
                 </div>
         </div>
     )
