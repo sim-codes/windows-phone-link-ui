@@ -111,7 +111,7 @@ export default function Images() {
         {
           images.map((image) => {
             return(
-              <div key={image.id} className="relative w-60 h-60">
+              <div key={image.id} className="relative w-60 h-60 z-0">
                 <Link href={`/photos/${image.alt}`}>
                   <Image src={image.src} alt={image.alt} layout="fill" objectFit="cover" className="rounded-md hover:" />
                 </Link>

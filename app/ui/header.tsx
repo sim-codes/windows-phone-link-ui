@@ -33,7 +33,7 @@ const links = [
 export function Header() {
     const pathname = usePathname();
   return (
-    <div className="flex flex-col item-center w-full pt-10">
+    <div className="flex flex-col item-center w-full pt-10 bg-[#202021] fixed z-10">
         <div className="flex gap-3">
             {
                 links.map((link) => {
