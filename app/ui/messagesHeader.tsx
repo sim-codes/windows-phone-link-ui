@@ -4,7 +4,7 @@ import { ChevronDown, ClipboardEditIcon} from "lucide-react";
 export default function MessagesHeader(){
     return (
         <div className="flex flex-col">
-            <div className="w-1/4 fixed bg-[#2B2D30] pb-3 top-22">
+            <div className="w-full md:w-1/4 md:fixed bg-[#2B2D30] pb-3 top-22">
                 <div className="px-10 pt-12 flex justify-between items-center mb-5">
                     <p className="text-white font-bold text-2xl">Messages</p>
                     <div className="bg-[#393b3e] p-2 rounded-full h-10 w-10"><ClipboardEditIcon className="w-6 text-white"/></div>

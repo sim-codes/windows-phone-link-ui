@@ -107,11 +107,11 @@ const images = [
 
 export default function Images() {
     return (
-      <div className="grid grid-cols-5 gap-4">
+      <div className="flex flex-col md:grid md:grid-cols-5 gap-4">
         {
           images.map((image) => {
             return(
-              <div key={image.id} className="relative w-60 h-60 z-0">
+              <div key={image.id} className="relative min-w-60 min-h-60 z-0">
                 <Link href={`/photos/${image.alt}`}>
                   <Image src={image.src} alt={image.alt} layout="fill" objectFit="cover" className="rounded-md hover:" />
                 </Link>

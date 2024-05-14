@@ -24,7 +24,7 @@ export default function RootLayout({
         </div>
         <div className="flex-grow md:overflow-y-auto">
           <Header />
-          <div className="h-auto mt-24 w-full bg-[#2B2D30] rounded-ss-xl border-2 border-stone-900">
+          <div className="h-auto md:mt-24 w-full bg-[#2B2D30] rounded-ss-xl border-2 border-stone-900">
             {children}
           </div>
         </div>

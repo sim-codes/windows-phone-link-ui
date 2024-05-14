@@ -4,7 +4,7 @@ import Conversation from "./ui/conversation";
 
 export default function Home() {
   return (
-    <main className="grid grid-flow-col grid-cols-3">
+    <main className="flex flex-col md:grid md:grid-flow-col md:grid-cols-3">
       {/* <MessagesHeader /> */}
       <Messages />
       <div className="col-span-2">

@@ -8,7 +8,7 @@ export default function Messages() {
         <div className="col-span-1 h-full w-full">
                 <div className="w-full h-full overflow-y-scroll">
                 <MessagesHeader />
-                    <div className=" mt-40">
+                    <div className="md:mt-40">
                         <div className="p-3 flex gap-1 text-gray-400">
                             <ChevronDown className="w-6"/>
                             <p>Recent</p>

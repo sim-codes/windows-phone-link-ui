@@ -7,7 +7,7 @@ export default function CallHistory(){
             {
                 CallLogs.map((call, index) => (
                     <div key={index} className="flex items-center justify-between p-2 hover:bg-[#393b3e]">
-                        <div className="flex items-center gap-2 px-8">
+                        <div className="flex items-center gap-2 md:px-8">
                             <UserCircleIcon className="w-10" />
                             <div>
                                 <p className="font-bold">{call.name}</p>
